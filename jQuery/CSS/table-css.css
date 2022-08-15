@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+  }
+
+  table{
+      width: 100%;
+  }
+
+  th{
+    text-align: left;
+    background: white;
+  }
+
+    tr:nth-child(odd) {
+      background: #f2f2f2;
+    }
+
+    tr.colored td {
+        background: #fafad2;
+    }
+
+    tr.mouseon td{
+        background: #1e90ff;
+    }
